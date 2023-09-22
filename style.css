@@ -1,7 +1,15 @@
+html {
+  display: flex;
+  height: 100vh;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  padding: 4px 64px;
+  padding: 8px 64px;
+  margin: 0px;
+  justify-content: space-between;
+  gap: 8px;
 }
 
 .header {
@@ -18,10 +26,68 @@ body {
 .container_one {
   margin-bottom: 16px;
   display: flex;
+  flex: auto;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 16px;
+}
+
+.container_one_left,
+.container_one_right {
+  width: 50%;
 }
 
 .image {
   box-sizing: border-box;
-  border: 1px solid black;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_one_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+  border: 1px solid black;
+}
+
+.c2i1 {
+  display: flex;
+  justify-content: center;
+}
+
+.c2i2t,
+.c2i3t,
+.c2i4t,
+.c2i5t {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.c2bottom {
+  display: flex;
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+.container_three {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.container_three_item_two {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container_four {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+
 }
