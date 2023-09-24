@@ -56,15 +56,12 @@ body {
   width: 50%;
 }
 
-.container_one_left {
-
-}
-
 .image {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f9faf8;
 }
 
 .container_one_right {
@@ -72,7 +69,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 32px;
-  border: 1px solid black;
+  border: 1px solid #f9faf8;
 }
 
 .container_two {
@@ -103,6 +100,7 @@ body {
   height: 75px;
   border: 1px solid black;
   display: flex;
+  border-radius: 5px;
 }
 
 .c2i2b,
@@ -136,13 +134,20 @@ body {
   background-color: #e5e7eb;
   justify-content: center;
   align-items: center;
-  padding: 0px 128px;
+  padding: 0px 208px;
+}
+
+.container_three_item_one {
+  color: #1f2937;
+  font-style: italic;
 }
 
 .container_three_item_two {
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .container_four {
@@ -151,8 +156,9 @@ body {
   justify-content: space-around;
   background-color: #3882f6;
   color: #f9faf8;
-  margin: 48px 96px;
+  margin: 48px 128px;
   align-items: center;
+  border-radius: 5px;
 }
 
 button {
@@ -164,12 +170,24 @@ button {
 }
 
 .c4left {
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.sign_up_one {
+  border-color: transparent;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 2px 8px;
 }
 
 .sign_up_two {
   width: 80px;
-  height: 34px;
+  height: 27px;
+}
+
+.container_four_item_two {
+  color: #e5e7eb;
+  font-size: 10px;
 }
 
 .footer {
